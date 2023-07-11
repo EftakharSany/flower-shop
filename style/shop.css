@@ -169,13 +169,36 @@ body {
 
 }
 
-.best-selling-flowers{
+.best-selling-flowers {
     display: flex;
-    gap: 20px;
+    gap: 5px;
     justify-content: space-between;
-    margin: 30px 240px ;
+    margin: 30px 240px;
 }
 
-.best-selling{
+.best-selling {}
+
+.form-section {
+
+    margin: 128px;
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 120px 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
     
 }
+
+
+.email {
+    margin: 20px;
+    padding: 20px 50px;
+    text-align: left;
+    border-radius: 10PX;
+    border: none;
+    width: 500px;
+}
+
+.form-section2 {}
