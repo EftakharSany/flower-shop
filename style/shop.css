@@ -168,3 +168,14 @@ body {
     line-height: 30px;
 
 }
+
+.best-selling-flowers{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 30px 240px ;
+}
+
+.best-selling{
+    
+}
