@@ -102,6 +102,7 @@ body {
     width: 370px;
     height: 440px;
     flex-shrink: 0;
+   padding:  130px 50px 0 50px;
 
 }
 
@@ -111,6 +112,8 @@ body {
     width: 370px;
     height: 440px;
     flex-shrink: 0;
+   padding:  130px 50px 0 50px;
+   margin: 0 10px 0;
 }
 
 .flower-image-bg3 {
@@ -119,6 +122,7 @@ body {
     width: 370px;
     height: 440px;
     flex-shrink: 0;
+  padding:  130px 50px 0 50px;
 }
 
 .features {
@@ -189,9 +193,28 @@ body {
     text-align: center;
     margin: 25px 0 70px;
 }
+.price-box2{
+    border-radius: 28px;
+    background-color: #E55473;
+    padding: 30px 70px 90px;
+    text-align: center;
+    margin: 25px 0 70px;
+}
+
+
+.price2{
+    
+}
 
 .price {
-    color: #272727;
+    color: #E55473;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+.price2{
+    color: #ffffff;
     text-align: center;
     font-size: 50px;
     font-weight: 800;
@@ -199,7 +222,16 @@ body {
 }
 
 .price-name {
-    color: #272727;
+    color: #E55473;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 70px;
+
+}
+.price-name2 {
+    color: #ffffff;
     text-align: center;
     font-size: 25px;
     font-weight: 700;
@@ -209,12 +241,22 @@ body {
 }
 
 #best-selling {
-    background-color: #E55473;
+    
 }
 
 .price-description {
 
     color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.price-description2 {
+
+    color: rgba(255, 255, 255, 0.6);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
