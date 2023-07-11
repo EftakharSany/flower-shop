@@ -1,5 +1,6 @@
 body {
     font-family: 'Lato', sans-serif;
+
 }
 
 .banner {
@@ -9,7 +10,7 @@ body {
     background: rgba(229, 84, 115, 0.10);
     font-family: 'Lato', sans-serif;
     margin: 0;
-    border: none;
+
 
 }
 
@@ -175,9 +176,6 @@ body {
     justify-content: space-between;
     margin: 30px 240px;
 }
-
-.best-selling {}
-
 .form-section {
 
     margin: 128px;
@@ -190,8 +188,6 @@ body {
     text-align: center;
 
 }
-
-
 .email {
     margin: 20px;
     padding: 20px 50px;
@@ -230,7 +226,7 @@ footer {
 footer {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-size: 16px;
+    font-size: 12px;
   
 
 }
