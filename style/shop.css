@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -6,36 +10,38 @@
     font-family: 'Lato', sans-serif;
     margin: 0;
     border: none;
-  
+
 }
-.banner-description{
+
+.banner-description {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-margin: 32px 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0;
+    max-width: 700px;
 }
+
 .banner-text {
     display: block;
     max-width: 50%;
     padding: 30px 240px;
 }
-.banner-title{
+
+.banner-title {
     color: #272727;
-font-family: Lato;
-font-size: 55px;
-
-font-weight: 800;
-
+    font-size: 55px;
+    font-weight: 800;
+    max-width: 700px;
 
 }
-.primary-btn{
+
+.primary-btn {
     padding: 5px 15px;
     color: white;
     border-radius: 5px;
-    background:#E55473;
+    background: #E55473;
     border: 0px;
     font-style: normal;
     font-weight: 700;
@@ -43,9 +49,70 @@ font-weight: 800;
     padding: 15px 35px;
 
 }
-.banner-image{
+
+.banner-image {
     width: 635px;
-height: 800px;
-padding-right: 240Px;
-padding-top: 30px;
+    height: 800px;
+    padding-right: 240Px;
+    padding-top: 30px;
+}
+
+/* featured flowers section  */
+
+
+.featured-flowers {
+    margin: 178px 500px 0px;
+}
+
+.featured-flowers-title {
+    color: #272727;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 30px;
+
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+
+}
+
+.flowers-category {
+    display: flex;
+    justify-content: space-around;
+    margin: 48px 240px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.flower{
+margin-top: 20px 240px;
+}
+
+.flower-image-bg1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 370px;
+    height: 440px;
+    flex-shrink: 0;
+    
+}
+.flower-image-bg2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 370px;
+    height: 440px;
+    flex-shrink: 0;
+}
+.flower-image-bg3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 370px;
+    height: 440px;
+    flex-shrink: 0;
 }
